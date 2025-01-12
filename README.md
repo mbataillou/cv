@@ -1,2 +1,1 @@
-# cv
-My curriculum vitae. 
+# My curriculum vitae.

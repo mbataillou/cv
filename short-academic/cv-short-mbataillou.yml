@@ -1,0 +1,236 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/jskherman/imprecv/main/cv.typ.schema.json
+
+personal:
+  name: Marc Bataillou Almagro
+  email: marc.bataillou@gmail.com
+  phone: (+34) 663 950 061
+  url: https://numericaltours.com
+  titles:
+    - Senior Applied Scientist
+  location:
+    city: Barcelona
+    region: Catalonia
+    country: Spain
+  profiles:
+    - network: LinkedIn
+      username: Marc Bataillou Almagro
+      url: https://linkedin.com/in/mbataillou
+    - network: GitHub
+      username: mbataillou
+      url: https://github.com/mbataillou
+
+work:
+  - organization: Amazon
+    url: https://amazon.com
+    location: Barcelona / Paris
+    positions:
+      - position: Senior Applied Scientist
+        startDate: 2023-08-01
+        endDate: "present"
+        highlights:
+          - Applied advanced modeling, simulation, and optimization to reshape world-wide operations.
+          - Proposed novel meta-heuristic and decomposition techniques for scheduling and network design problems with billions of variables while leading initiatives involving 50+ scientists, software developers, and project managers.
+      - position: Applied Scientist II
+        startDate: 2021-08-02
+        endDate: 2023-08-01
+        highlights:
+          - Optimization, Machine Learning, and Control to solve large scale network design problems.
+          - Proposed novel _optimization based forecasting_ techniques where one predicts and influences a systems' behaviour.
+      - position: Applied Scientist I
+        startDate: 2019-05-31
+        endDate: 2021-08-01
+        highlights:
+          - Optimization, Machine Learning and Time Series Forecasting to enable large scale automated decision making.
+          - Designed hierarchical clustering techniques for time aware and multi-dimensional forecasting.
+  - organization: IESE
+    url: https://www.iese.edu
+    location: Barcelona, Spain
+    positions:
+      - position: Research Assistant
+        startDate: 2018-09-01
+        endDate: 2019-05-31
+        highlights:
+          - Influenced policy recommendations and supported research in the Operations' Research department with computer vision analysis and statistical inference.
+          - Developed a model for trade-credit finance in networks with imperfect information.
+
+education:
+  - institution: Universitat Politecnica de Catalunya (UPC)
+    url: https://www.upc.edu/ca
+    area: Civil Engineering
+    studyType: Bachelor of Science
+    startDate: 2013-09-01
+    endDate: 2017-06-30
+    location: Barcelona, Spain
+    honors:
+      - 9.6/10 GPA
+    courses:
+      - Algebra
+      - Calculus
+      - Physics
+      - Rational Mechanics
+      - Probability and Statistics
+      - Differential Geometry
+      - Mechanics of Continua
+      - Transportation Theory
+      - Numerical Modelling
+    highlights:
+
+  - institution: Université Paris Dauphine
+    url: https://dauphine.psl.eu
+    area: Applied Economics
+    studyType: Bachelor
+    startDate: 2015-09-01
+    endDate: 2017-06-30
+    location: Paris, France
+    honors:
+      - 14.0/20 GPA (less than 10%)
+    courses:
+      - Microeconomics
+      - Macroeconomics
+      - Public Economy
+      - International Economy
+      - Econometrics
+    highlights:
+
+  - institution: CentraleSupélec (Centrale Paris)
+    url: https://www.centralesupelec.fr
+    area: Diplome D'ingénieur
+    studyType: Master of Science
+    startDate: 2015-09-01
+    endDate: 2017-06-30
+    location: Paris, France
+    honors:
+      - 3.93/4 GPA
+    courses:
+      - Analysis, Probability, Statistics
+      - Partial Differential Equations
+      - Quantum and Statistical Physics
+      - Mechanics
+      - Thermodynamics
+      - Algorithms and Programming
+      - Software Development
+      - Systems Engineering
+      - Embedded Control Systems
+      - Philosophy of Sciences
+    highlights:
+      - "*Thesis*: A Genetic Optimization Approach to Dynamical Systems Optimization."
+
+  - institution: Universitat Politecnica de Catalunya (UPC)
+    url: https://www.upc.edu/ca
+    area: Computational Engineering and Numerical Methods
+    studyType: Master of Science
+    startDate: 2017-09-01
+    endDate: 2019-06-30
+    location: Barcelona, Spain
+    honors:
+      - 9.4/10 GPA
+    courses:
+      - Advanced Mechanics of Continua
+      - Advanced Numerical Modelling
+      - Computational Engineering
+      - Structural Analysis
+      - Machine Learning
+      - Advanced Transportation Theory
+    highlights:
+      - "*Thesis*: A Taylor Error Propagation Approach for Structural System Identification"
+      - "*Research Collaboration*: Uncertainty quantification in systems of equations."
+      - "*Research Collaboration*: Developed an image recognition pipeline to automate Granulometric analysis."
+  - institution: TU Delft
+    url: https://www.tudelft.nl/en/
+    area: Large Scale Network Optimization
+    studyType: Doctor of Science
+    startDate: 2023-09-01
+    endDate: 2027-06-30
+    location: Delft, Netherlands
+    honors:
+    highlights:
+    courses:
+
+# affiliations:
+#   - organization: White Hat Hackers Association
+#     position: Vice President for Internal Affairs
+#     location: Cambridge, United Kingdom
+#     url: https://example.com
+#     startDate: 2020-05-30
+#     endDate: 2021-05-30
+#     highlights:
+#       - But I must explain to you how all this mistaken idea of reprobating pleasure and extolling pain arose.
+#       - But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?
+#       - Can you then suppose that those heroic men performed their famous deeds without any motive at all?
+#   - organization: London Bridge Toastmasters Club
+#     position: Member
+#     location: City of London, United Kingdom
+#     url:
+#     startDate: 2022-06-15
+#     endDate: 2023-06-30
+#     highlights:
+#       - Won Champion in the Division A District X Speech Evaluation Contest of Toastmasters International
+#       - Promising Toastmaster of the Year (PY 2022-2023)
+#       - Tell me, pray, what explanation do you put upon their actions?
+
+# awards:
+#   - title: Ouzo Award
+#     date: 2021-05-09
+#     issuer: Toastmasters International
+#     url:
+#     location: City of London, United Kingdom
+#     highlights:
+
+# certificates:
+#   - name: "Learning How to Learn: Powerful mental tools to help you master tough subjects"
+#     date: 2021-09-01
+#     issuer: Coursera
+#     url: https://example.com
+#     id: "1MPR3CVR3SUM3"
+
+# publications:
+#   - name: A convolutional neural network for predicting Greenland glacier melt and glacial water flow
+#     publisher: Theoretical and Computational Fluid Dynamics
+#     releaseDate: 2020-09-30
+#     url: https://example.com
+
+# projects:
+#   - name: "Job Tailor"
+#     url: https://example.com/
+#     affiliation: Open University
+#     startDate: 2020-11-01
+#     endDate: 2021-04-30
+#     highlights:
+#       - Developed an AI-powered résumé editor app to create tailored résumés from users' CVs based on specific job descriptions.
+#       - Acquired more than 100,000 user sign ups in 3 months and more than 10,000 active monthly users.
+#       - Generated profit of upwards \$20,000 yearly with a team of only four developers and three business operatives
+
+skills:
+  - category: Programming
+    skills:
+      - Python
+      - Julia
+      - Rust
+      - SQL
+      - Typst
+      - LaTeX
+  - category: Cloud
+    skills:
+      - AWS CDK
+
+languages:
+  - language: English
+    fluency: proficiency
+  - language: French
+    fluency: Native speaker
+  - language: Spanish
+    fluency: Native speaker
+  - language: Catalan
+    fluency: Native speaker
+
+interests:
+  - Hiking
+  - Boxing
+  - Climbing
+# references:
+# You can comment out the entries below if you don't have any references
+# The same goes for the publications
+
+#   - name: Dr. Jane Austin
+#    reference: John was a great student. He was always eager to learn new things and was very passionate about his studies. As his mentor, I am proud to say that he was also a great leader and was able to lead his team to victory in the 2020 SCG Bangkok Business Challenge Global Competition.
+#    url: https://janeaustin.com
