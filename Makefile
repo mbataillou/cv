@@ -1,7 +1,7 @@
 SHORTCVNAME=./short-academic/cv-short-mbataillou
 
 all: $(SHORTCVNAME).typ
-    echo "Compiling CVs..."
+	$(info "Compiling CVs...")
 	typst compile $(SHORTCVNAME).typ
 
 show: $(SHORTCVNAME).pdf
