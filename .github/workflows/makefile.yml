@@ -20,11 +20,11 @@ jobs:
       - uses: typst-community/setup-typst@v4
         with:
           cache-dependency-path: requirements.typ
-      - run: typst compile cv-short-mbataillou.typ cv-short-mbataillou.pdf
+      - run: typst compile short-academic/cv-short-mbataillou.typ short-academic/cv-short-mbataillou.pdf
       - uses: actions/upload-artifact@v4
         with:
           name: cv-short-mbataillou
-          path: cv-short-mbataillou.pdf
+          path: short-academic/cv-short-mbataillou.pdf
 
       - name: Remove older artifacts with the same name
         uses: c-hive/gha-remove-artifacts@v1
