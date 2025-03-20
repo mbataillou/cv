@@ -1,3 +1,9 @@
 # My curriculum vitae.
 
-Run `make show` to compile the latest version of the CVs.
+The latest versions are here:
+
+- [cv-short-mbataillou](https://nightly.link/mbataillou/cv/workflows/makefile/main/cv-short-mbataillou)
+
+## Want to compile it yourself?
+
+Just run `make`.

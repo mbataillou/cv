@@ -1,0 +1,34 @@
+name: makefile
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+permissions:
+  actions: write
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - uses: typst-community/setup-typst@v4
+        with:
+          cache-dependency-path: requirements.typ
+      - run: typst compile cv-short-mbataillou.typ cv-short-mbataillou.pdf
+      - uses: actions/upload-artifact@v4
+        with:
+          name: cv-short-mbataillou
+          path: cv-short-mbataillou.pdf
+
+      - name: Remove older artifacts with the same name
+        uses: c-hive/gha-remove-artifacts@v1
+        with:
+          age: "1 minute"
+          pattern: cv-short-mbataillou
+          skip-recent: 1 # Keep only the most recent artifact
