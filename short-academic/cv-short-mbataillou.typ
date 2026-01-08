@@ -5,7 +5,7 @@
 #let uservars = (
     headingfont: "Amazon Ember Display",
     bodyfont: "Amazon Ember Display",
-    fontsize: 10pt, // 10pt, 11pt, 12pt
+    fontsize: 9pt, // 10pt, 11pt, 12pt
     linespacing: 5pt,
     sectionspacing: 0pt,
     showAddress:  false, // true/false show address in contact info
@@ -61,7 +61,7 @@
 //#cvprojects(cvdata)
 //#cvawards(cvdata)
 //#cvcertificates(cvdata)
-//#cvpublications(cvdata)
+#cvpublications(cvdata)
 #cvskills(cvdata)
 //#cvreferences(cvdata)
 //#endnote(uservars)

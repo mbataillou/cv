@@ -1,0 +1,17 @@
+NAME := "cv-short-mbataillou"
+DATE := `date +%Y-%m-%d`
+
+default: all
+
+all:
+    typst compile {{ NAME }}.typ
+    tag -a science-document {{ NAME }}.pdf
+
+preview:
+    typst watch {{ NAME }}.typ
+
+publish: all
+    cp "{{ NAME }}.pdf" "{{ NAME }}[{{ DATE }}].pdf"
+
+show: all
+    open {{ NAME }}.pdf

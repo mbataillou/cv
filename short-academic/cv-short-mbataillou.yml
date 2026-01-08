@@ -4,7 +4,7 @@ personal:
   name: Marc Bataillou Almagro
   email: marc.bataillou@gmail.com
   phone: (+34) 663 950 061
-  url: https://mbataillou.github.io/computational-loops/
+  url: https://computational-loops.com
   titles:
     - Senior Applied Scientist
   location:
@@ -138,9 +138,9 @@ education:
   - institution: TU Delft
     url: https://www.tudelft.nl/en/
     area: Large Scale Network Optimization
-    studyType: Doctor of Science
+    studyType: PhD Candidate
     startDate: 2023-09-01
-    endDate: 2027-06-30
+    endDate: Present
     location: Delft, Netherlands
     honors:
     highlights:
@@ -183,11 +183,11 @@ education:
 #     url: https://example.com
 #     id: "1MPR3CVR3SUM3"
 
-# publications:
-#   - name: A convolutional neural network for predicting Greenland glacier melt and glacial water flow
-#     publisher: Theoretical and Computational Fluid Dynamics
-#     releaseDate: 2020-09-30
-#     url: https://example.com
+publications:
+  - name: "Speed-Aware Network Design: A Parametric Optimization Approach"
+    publisher: Algorithmic Approaches for Transportation Modeling, Optimization, and Systems
+    releaseDate: 2025-09-18
+    url: https://arxiv.org/abs/2506.20216
 
 # projects:
 #   - name: "Job Tailor"
